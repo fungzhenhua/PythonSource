@@ -1,6 +1,6 @@
 # Time Crystals Simulation Code
 
-This code repository contains Python scripts for reproducing the results presented in Figures 9, 10, and 11 of the paper "Comment on 'Time Crystals Made of Electron-Positron Pairs': Parity Considerations and Numerical Validation". Despite using identical initial conditions as reported in the original study, our simulations reveal significant differences.
+This code repository contains Python scripts for reproducing the results presented in Figures 9, 10, and 11 of the paper "Divergent Solutions and Enforced Symmetry in Bialynicki-Birula’s Time Crystal Quantum Model: A Numerical-Theoretical Exposé". Despite using identical initial conditions as reported in the original study, our simulations reveal significant differences.
 
 ## Directory Structure
 
