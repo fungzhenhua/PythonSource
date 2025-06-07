@@ -9,15 +9,21 @@ This code repository contains Python scripts for reproducing the results present
 ├── README.md
 ├── PythonSource/
 │   ├── fig9.py
+│   ├── fig9_x.py
 │   ├── fig10.py
-│   └── fig11.py
+│   ├── fig10_x.py
+│   ├── fig11.py
+│   └── fig11_x.py
 └── Figures/
 ├── Figure_9.png
 ├── Figure_9o.png
+├── Figure_9x.png
 ├── Figure_10.png
 ├── Figure_10o.png
+├── Figure_10x.png
 ├── Figure_11.png
-└── Figure_11o.png
+├── Figure_11o.png
+└── Figure_11x.png
 ```
 
 
@@ -30,19 +36,22 @@ To reproduce each figure, run the corresponding script. The scripts are designed
 #### Reproducing Figure 9
 
 ```bash
-python PythonSource/fig9.py
+python PythonSource/fig9.py   #  y ranging from −2 to 10
+python PythonSource/fig9_x.py #  y ranging from −10 to 10
 ```
 
 #### Reproducing Figure 10
 
 ```bash
-python PythonSource/fig10.py
+python PythonSource/fig10.py  #  y ranging from −2 to 10
+python PythonSource/fig10_x.py #  y ranging from −10 to 10
 ```
 
 #### Reproducing Figure 11
 
 ```bash
-python PythonSource/fig11.py
+python PythonSource/fig11.py   #  y ranging from −4 to 10
+python PythonSource/fig11_x.py #  y ranging from −10 to 10
 ```
 
 ### Initial Conditions
